@@ -88,7 +88,7 @@ class MediaPlayer(QWidget):
         # По умолчанию скрываем видео и показываем логотип
         self.video_widget.hide()
         self.image_label.show()
-        self.load_image(r"C:\Dima\Программирование\Projects\Player_Valera\My_variant\phone-with-music.jpg"
+        self.load_image(r"C:\Dima\Программирование\Projects\Player_Valera\Multiplayer\phone-with-music.jpg"
 )  # Загружаем логотип при запуске
 
         # Слайдер для перемотки
@@ -224,7 +224,7 @@ class MediaPlayer(QWidget):
             if file_path.endswith((".mp3", ".wav")):  # Аудиофайл
                 self.video_widget.hide()
                 self.image_label.show()
-                self.load_image("default_image.jpg")  # Загружаем картинку
+                self.load_image(r"C:\Dima\Программирование\Projects\Player_Valera\My_variant\5276349319089350565.jpg")  # Загружаем картинку
             else:  # Видеофайл
                 self.image_label.hide()
                 self.video_widget.show()
